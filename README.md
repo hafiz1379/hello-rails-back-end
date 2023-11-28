@@ -43,9 +43,28 @@ This back-end application is designed to work in conjunction with the [Hello Rai
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+<ul>
+  <li>Ruby on Rails framework</li>
+  <li>
+    Use Linters to check code quality
+    <ul>
+      <li>Rubocop</li>
+    </ul>
+  </li>
+  <li>MVC architectural/design pattern</li>
+  <li>Data persistent in PostgreSQL</li>
+  <li>RESTful API</li>
+</ul>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 💻 API Endpoints <a name="api-endpoints"></a>
 
-- **GET /api/greetings/random**
+- **GET /api/v2/greetings/random**
   - Returns a random greeting from the database.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -102,6 +121,17 @@ The API will be accessible at `http://localhost:3000/api/v2/greetings/random`.
 👤 **Hafizullah Rasa**
 - GitHub: [Hafiz Rasa](https://https://github.com/hafiz1379)
 - LinkedIn: [Hafiz Rasa](https://www.linkedin.com/in/hafiz1379)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+Upcoming improvements:
+
+- [ ] Add the endpoints to create, update and delete a greeting
+- [ ] Deploy the application
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
