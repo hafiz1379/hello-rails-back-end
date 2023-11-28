@@ -7,3 +7,11 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+# db/seeds.rb
+
+Greeting.create(text: 'Hello!')
+Greeting.create(text: 'Hi there!')
+Greeting.create(text: 'Greetings!')
+Greeting.create(text: 'Welcome!')
+Greeting.create(text: 'Good day!')
+
