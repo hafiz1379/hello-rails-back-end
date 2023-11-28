@@ -5,9 +5,7 @@ class Api::V2::GreetingsController < ApplicationController
     if greeting.nil?
       render json: { error: 'Record not found' }, status: 500
     else
-      render json: { message: greeting.text } and return if request.format.json?
-
-      render html: "<p style='color: green; font-size: 30px; text-align: center;'>#{greeting.text}</p>".html_safe
+      render json: { message: greeting.text }
     end
   end
 end
